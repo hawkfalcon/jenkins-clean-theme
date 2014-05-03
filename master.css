@@ -569,9 +569,9 @@ td.inactive:hover {
     padding-left: 0px !important;
     padding-right: 0px !important;
     height: 100% !important;
-    position: fixed;
-    margin-top: 45pt;
-    width: 20%;
+    /*position: fixed;
+    margin-top: 45pt;*/
+    width: 20.05%;
 }
 
 #main-panel {
@@ -645,26 +645,34 @@ table {
 }
 
 #tasks {
+    background: none repeat scroll 0 0 #F0F0F0 !important;
+    display: block;
+    margin-top: 45pt;
     padding: 4px;
     position: fixed;
-    display: block;
-    margin-top: 38pt;
-    background: #f0f0f0 !important;
-    width: 20.2%;
-    overflow: auto;
-    height: 200px;
+    top: 0;
+    width: 20.05%;
 }
 
-td.pane-header {
-    border: 1px #bbb solid;
-    border-right: none;
-    border-left: none;
-    background-color: #f0f0f0;
-    font-weight: bold;
-    padding-right: 24px;
-    width: 20.15%;
+#buildHistory {
+    margin-top: 255px !important;
+}
+
+#buildHistory > tbody > tr > td.pane-header > div {
+    background: none repeat scroll 0 0 #F0F0F0 !important;
+    display: block;
+    height: 20px;
+    left: 0;
     position: fixed;
-    padding-bottom: 10px;
+    text-align: left;
+    top: 250px;
+    width: 18.8%;
+}
+
+a.tip {
+    /* position: relative; */
+    text-decoration: underline;
+    z-index: 24;
 }
 
 td.pane, tr.build-row > td {
