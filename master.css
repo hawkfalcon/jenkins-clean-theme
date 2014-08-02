@@ -168,6 +168,17 @@ a[href*="/GitHubPollLog"].task-icon-link {
     background-size: contain!important;
 }
 
+img[src$="package.png"] {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(img/views.png) no-repeat !important;
+    background-size: contain !important;
+    height: 48px;
+    width: 48px;
+    padding-left: 48px;
+}
+
 div.task a[href="#"]:first-child {
     background: url(img/x.png) no-repeat !important;
     background-size: contain !important;
