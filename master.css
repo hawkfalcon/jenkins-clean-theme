@@ -751,3 +751,20 @@ img[src*="progress-unknown.gif"], img[src*="progress-unknown-red.gif"] {
     color: #bf616a!important;
     text-decoration: underline;
 }
+
+/*
+ * The console output doesn't have an ID on it, sadly, so style its place in
+ * the DOM and hope nothing else is affected
+ *
+ * If you hit consoleText you can view the raw console text, let's style that
+ * too.
+ */
+body > pre,
+#main-panel > pre,
+.console-output {
+  font-size: 14px;
+  background-color: #111;
+  color: #eee;
+  padding: 10px 10px 30px;
+  border-radius: 3px;
+}
