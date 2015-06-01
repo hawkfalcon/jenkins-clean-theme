@@ -17,7 +17,7 @@ body {
 
 #jenkins-home-link {
     display: block;
-    background: url("hawk.png") 0 0 no-repeat;
+    background: url("icon.png") 0 0 no-repeat;
     height: 60px;
     width: 350px;
 }
