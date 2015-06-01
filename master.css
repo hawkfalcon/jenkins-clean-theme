@@ -17,13 +17,13 @@ body {
 
 #jenkins-home-link {
     display: block;
-    background: url("hawk.png") 0 0 no-repeat;
+    background: url("icon.png") 0 0 no-repeat;
     height: 60px;
     width: 350px;
 }
 
 #header {
-    background: #39c!important;
+    background: #18475e!important;
     height: 80px!important;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -697,7 +697,7 @@ img[src$="aborted.png"],  img[src$="aborted.gif"],  img[src$="aborted_anime.gif"
 }
 
 img[src*="blue.png"], img[src*="blue_anime.gif"] {
-    background: #326ca6 !important;
+    background: #00af00 !important;
 }
 
 img[src*="yellow.png"], img[src*="yellow_anime.gif"] {
@@ -750,4 +750,21 @@ img[src*="progress-unknown.gif"], img[src*="progress-unknown-red.gif"] {
 #main-panel>pre>a,body>pre>a {
     color: #bf616a!important;
     text-decoration: underline;
+}
+
+/*
+ * The console output doesn't have an ID on it, sadly, so style its place in
+ * the DOM and hope nothing else is affected
+ *
+ * If you hit consoleText you can view the raw console text, let's style that
+ * too.
+ */
+body > pre,
+#main-panel > pre,
+.console-output {
+  font-size: 14px;
+  background-color: #111;
+  color: #eee;
+  padding: 10px 10px 30px;
+  border-radius: 3px;
 }
