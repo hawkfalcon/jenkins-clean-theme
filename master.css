@@ -697,7 +697,7 @@ img[src$="aborted.png"],  img[src$="aborted.gif"],  img[src$="aborted_anime.gif"
 }
 
 img[src*="blue.png"], img[src*="blue_anime.gif"] {
-    background: #00ff00 !important;
+    background: #76ff76 !important;
 }
 
 img[src*="yellow.png"], img[src*="yellow_anime.gif"] {
